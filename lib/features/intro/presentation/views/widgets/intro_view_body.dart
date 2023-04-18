@@ -24,7 +24,7 @@ class IntroViewBody extends StatelessWidget {
             left: 20.0,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children:  [
+              children:  const [
                 TextModel(
                   text: "Enjoy Your Vacations With ,",
                   fontFamily: "Merienda",
@@ -37,7 +37,7 @@ class IntroViewBody extends StatelessWidget {
                   size: 25.0,
                 ),
                 SizedBox(height: 10,),
-                Container(
+                SizedBox(
                   width: 300,
                   child: TextModel(
                     text: "Book your tour now around most famous tourist places in Egypt and worldwide now , enjoy!",
